@@ -8,17 +8,17 @@ CREATE (we:Lyric {words: 'We'}),
        (we)-[:BUILD {line: 7}]->(:Lyric {words: 'cities of sound'}),
        (we)-[:FEEL {line: 8}]->(:Lyric {words: 'the rhythm of time'}),
        (we)-[:MAKE {line: 9}]->(:Lyric {words: 'ritual noise'})
-         -[:WIRED {FROM: 9}]->(:Lyric {words: 'to the world'})
-         -[:UNDER {FROM: 9}]->(:Lyric {words: 'our fingertips'}),
+         -[:WIRED {line: 9}]->(:Lyric {words: 'to the world'})
+         -[:UNDER {line: 9}]->(:Lyric {words: 'our fingertips'}),
        (we)-[:TAKE {line: 10}]->(:Lyric {words: 'special care'})
-         -[:LISTEN {FROM: 10}]->(:Lyric {words: 'to the words'})
-         -[:SPOKEN {FROM: 10}]->(:Lyric {words: 'in confidence'}),
+         -[:LISTEN {line: 10}]->(:Lyric {words: 'to the words'})
+         -[:SPOKEN {line: 10}]->(:Lyric {words: 'in confidence'}),
        (we)-[:MAKE {line: 11}]->(:Lyric {words: 'ritual noise'})
-         -[:SHOUTING {FROM: 11}]->(:Lyric {words: 'to be heard'})
-         -[:COOLING {FROM: 11}]->(:Lyric {words: 'our burning lips'}),
+         -[:SHOUTING {line: 11}]->(:Lyric {words: 'to be heard'})
+         -[:COOLING {line: 11}]->(:Lyric {words: 'our burning lips'}),
        (we)-[:BREAK {line: 12}]->(:Lyric {words: 'down the gates'})
-         -[:OPEN {FROM: 12}]->(:Lyric {words: 'up our wounds'})
-         -[:BLEEDING {FROM: 12}]->(:Lyric {words: 'for innocence'}),
+         -[:OPEN {line: 12}]->(:Lyric {words: 'up our wounds'})
+         -[:BLEEDING {line: 12}]->(:Lyric {words: 'for innocence'}),
        (we)-[:MAKE {line: 13}]->(:Lyric {words: 'ritual noise'}),
        (we)-[:WEAVE {line: 14}]->(:Lyric {words: 'the fabric of dreams'}),
        (we)-[:BUILD {line: 15}]->(:Lyric {words: 'cities of sound'}),
